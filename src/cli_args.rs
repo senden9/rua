@@ -1,7 +1,7 @@
 use clap::*;
 
 pub fn build_cli() -> App<'static, 'static> {
-	App::new(env!("CARGO_PKG_NAME"))
+    App::new(env!("CARGO_PKG_NAME"))
 		.version(env!("CARGO_PKG_VERSION"))
 		.author(env!("CARGO_PKG_AUTHORS"))
 		.about(env!("CARGO_PKG_DESCRIPTION"))
